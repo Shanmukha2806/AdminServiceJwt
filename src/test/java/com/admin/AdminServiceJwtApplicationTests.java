@@ -8,8 +8,9 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
 import org.springframework.boot.test.context.SpringBootTest;
 
+
 @SuppressWarnings("unused")
-@SpringBootTest
+@SpringBootTest(classes = AdminServiceJwtApplication.class)
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 class AdminServiceJwtApplicationTests {
 
